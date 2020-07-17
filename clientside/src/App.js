@@ -2,28 +2,29 @@ import React from 'react';
 import Navbar from './components/Navbar'
 import './App.css'
 import {BrowserRouter, Route} from 'react-router-dom'
-import { Router } from 'express';
 import Home from './components/screens/Home'
 import Login from './components/screens/Login'
 import Signup from './components/screens/Signup'
+import Profile from './components/screens/Profile'
+
 
 function App() {
   return (
     <div>
       <BrowserRouter>
         <Navbar />
-        <Router path="/">
+        <Route exact path="/home">
           <Home />
-        </Router>
-        <Router path="/">
-          <Signup />
-        </Router>
-        <Router path="/">
+        </Route>
+        <Route path="/login">
           <Login />
-        </Router>
-        <Router path="/">
+        </Route>
+        <Route path="/signup">
+          <Signup />
+        </Route>        
+        <Route path="/profile">
           <Profile />
-        </Router> 
+        </Route> 
       </BrowserRouter>
     </div>
   );
