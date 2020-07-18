@@ -24,3 +24,13 @@ a {
   margin: 10px auto !important;
 }
 
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item {
+  width: 30%;
+}
+
