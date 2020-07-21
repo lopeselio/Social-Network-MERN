@@ -20,8 +20,8 @@ const Signup = () => {
             })
         }).then(res => res.json())
         .then(data => {
-            if(data.err){
-                M.toast({html: data.err})
+            if(data.error){
+                M.toast({html: data.error})
 
             }
         })
