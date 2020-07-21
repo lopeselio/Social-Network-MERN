@@ -9,7 +9,7 @@ const Home = () => {
                     <img src="https://images.unsplash.com/photo-1568194157720-8bbe7114ebe8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" />
                 </div>
                 <div className="card-content">
-                    <i class="material-icons" style={{color:"red"}}>favorite</i>
+                    <i className="material-icons" style={{color:"red"}}>favorite</i>
                     <h6>Title</h6>
                     <p>This is an amazing post</p>
                     <input type="text" placeholder="add a comment" />
@@ -21,7 +21,7 @@ const Home = () => {
                     <img src="https://images.unsplash.com/photo-1568194157720-8bbe7114ebe8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" />
                 </div>
                 <div className="card-content">
-                    <i class="material-icons" style={{color:"red"}}>favorite</i>
+                    <i className="material-icons" style={{color:"red"}}>favorite</i>
 
                     <h6>Title</h6>
                     <p>This is an amazing post</p>
@@ -34,7 +34,7 @@ const Home = () => {
                     <img src="https://images.unsplash.com/photo-1568194157720-8bbe7114ebe8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" />
                 </div>
                 <div className="card-content">
-                    <i class="material-icons" style={{color:"red"}}>favorite</i>
+                    <i className="material-icons" style={{color:"red"}}>favorite</i>
                     <h6>Title</h6>
                     <p>This is an amazing post</p>
                     <input type="text" placeholder="add a comment" />
@@ -46,7 +46,7 @@ const Home = () => {
                     <img src="https://images.unsplash.com/photo-1568194157720-8bbe7114ebe8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" />
                 </div>
                 <div className="card-content">
-                    <i class="material-icons" style={{color:"red"}}>favorite</i>
+                    <i className="material-icons" style={{color:"red"}}>favorite</i>
                     <h6>Title</h6>
                     <p>This is an amazing post</p>
                     <input type="text" placeholder="add a comment" />
